@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <section className="container-fluid section-four" id="contact">
+        <section className="container-fluid section-four show-on-scroll" id="contact">
             <h2 className="display-3">Drop a Message!</h2>
             <div className="row form">
                 <div className="col-lg-12 pt-3">

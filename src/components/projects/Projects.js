@@ -11,7 +11,7 @@ export default function Projects() {
         { id: 7, imgUrl: `${require("../../images/socialMedia.PNG")}`, webUrl: "https://social-media-dashboard-switcher.now.sh/#", title: "A Socila Media Dashboard Page"}
     ])
     return (
-        <section className="container-fluid section-three mt-5" id="projects">
+        <section className="container-fluid section-three mt-5 show-on-scroll" id="projects">
             <h2 className="display-3 py-5">Projects</h2>
             <div className="container">
                 <div className="row fade-out-siblings">

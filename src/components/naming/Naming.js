@@ -4,7 +4,7 @@ import Social from './Social';
 export default function Naming() {
     return (
         
-        <div className="center-naming" id="about">
+        <div className="center-naming show-on-scroll" id="about">
             <div>
                 <img src={require("../../images/cover6.png")} alt="gurkiran singh" className="myImage" />
             </div>

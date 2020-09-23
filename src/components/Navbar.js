@@ -35,7 +35,7 @@ export default function Navbar() {
 
     return (
         <motion.nav 
-            className="navbar" 
+            className="navbar show-on-scroll" 
             animate={ { opacity: shouldShowActions ? 1 : 0 } } 
             
             >

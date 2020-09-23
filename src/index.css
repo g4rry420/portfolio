@@ -265,24 +265,6 @@ margin-left: 15%;
 .hexagon-margin{
   margin-left: 46%;
 }
-#fast{
-  margin-left: 48%;
-}
-#responsive{
-  margin-left: 38%;
-}
-#dynamic{
-  margin-left: 42%;
-}
-#fast-p{
-  margin-left: 23%;
-}
-#responsive-p{
-  margin-left: 12%;
-}
-#dynamic-p{
-  margin-left: 20%;
-}
 .margin{
   margin-top: 10%;
   margin-left: 10%;
@@ -290,113 +272,7 @@ margin-left: 15%;
   flex-direction: column;
   position: relative;
 }
-.full-bar{
-  width: 54px;
-  height: 400px;
-  background:#eee;
-  display: inline-block;
-  margin-left: 5%;
-  transform: rotate(180deg);
-}
-.bar{
-  width: 54px;
-  background: linear-gradient(45deg,#a74eed ,#3c35ce);
-}
-.bar-html{
-  height: 350px;
-  transition: height 100s linear !important;
-}
-.bar-css{
-  height: 300px;
-}
-.bar-js{
-  height: 200px;
-}
-.bar-react{
-  height: 200px;
-}
-.first-hr-line{
-  position: absolute;
-  border: 1px solid rgba(0,0,0,.1);
-  width: 90%;
-  bottom: 96%;
-}
-.second-hr-line{
-  position: absolute;
-  border: 1px solid rgba(0,0,0,.1);
-  width: 90%;
-  bottom: 72%;
-}
-.third-hr-line{
-  position: absolute;
-  border: 1px solid rgba(0,0,0,.1);
-  width: 90%;
-  bottom: 48%;
-}
-.fourth-hr-line{
-  position: absolute;
-  border: 1px solid rgba(0,0,0,.1);
-  width: 90%;
-  bottom: 24%;
-}
-.fifth-hr-line{
-  background: black;
-  position: absolute;
-  border: 1px solid rgba(0,0,0,.1);
-  width: 90%;
-  bottom: 1%;
-}
-#master-h3{
-  /* margin-top: -30%; */
-  margin-left: 53%;
-  position: absolute;
-  top: -7.5%;
-}
-#high-h3{
-  margin-left: 53%;
-  /* margin-top: 4%; */
-  position: absolute;
-  top: 15%;
-}
-#medium-h3{
-  margin-left: 53%;
-  /* margin-top: 5%; */
-  position: absolute;
-  top: 40%;
-}
-#basic-h3{
-  margin-left: 53%;
-  /* margin-top: 4%; */
-  position: absolute;
-  top: 64%;
-}
-#none-h3{
-  margin-left: 53%;
-  /* margin-top: 4.5%; */
-  position: absolute;
-  top: 87%;
-}
-.html{
-  color: #f06529;
-  font-size: 73px;
-  margin-left: 13.8%;
-}
-.css{
-  color: #2965f1;
-  font-size: 73px;
-  margin-left: 3.4%;
-}
-.js{
-  color: #323330 ;
-  font-size: 73px;
-  margin-left: 3%;
-}
-.react{
-  /* display: inline-block; */
-  color: #61DBFB;
-  font-size: 73px;
-  margin-left: 3.5%;
-}
+
 .image-container img{
   width: 100%;
   height: auto;
@@ -489,9 +365,12 @@ margin-left: 15%;
 /* Projects ends here */
 
 /* Contact Page starts here */
-.section-four h2{
+.section-four{
   margin-top: 15%;
   margin-bottom: 10%;
+}
+.section-four h2{
+  margin-bottom: 5%;
 }
 .no-border{
   border: none;
@@ -530,6 +409,16 @@ margin-left: 15%;
 }
 
 /* Contact Page ends here */
+
+.show-on-scroll{
+  opacity: 0;
+  transition: opacity .5s .25s ease-out;
+}
+.is-visible{
+  opacity: 1;
+  transition: opacity .9s .3s linear;
+  will-change: opacity;
+}
 
 @media only screen and (min-width: 702px){
     .image-container{

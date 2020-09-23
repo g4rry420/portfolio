@@ -16,7 +16,7 @@ export default function Skills() {
     ])
 
     return (
-        <section className="section-two container-fluid"   id="skills">
+        <section className="section-two container-fluid show-on-scroll"   id="skills">
         <h2 className="display-3 skills-h2">Skills</h2>
                     <div className="icons-flex d-flex flex-md-row flex-column">
                         <div className="align-items" id="hexa">

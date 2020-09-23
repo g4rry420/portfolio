@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function MyAlmaMeter() {
     return (
-        <section className="section-one container-fluid">
+        <section className="section-one container-fluid show-on-scroll">
             <h2 className="display-3 alma-meter">My Alma Meter</h2>
             <div className="vertical-line"></div>
             <div className="school">
