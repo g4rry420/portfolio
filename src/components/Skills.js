@@ -1,68 +1,6 @@
 import React,{ useState } from 'react'
-import { IoIosSpeedometer,IoLogoCss3, IoIosRocket, IoLogoJavascript } from "react-icons/io"
+import { IoIosSpeedometer, IoIosRocket} from "react-icons/io"
 import { MdDevices } from "react-icons/md"
-import { TiHtml5 } from "react-icons/ti"
-import { GrReactjs } from "react-icons/gr"
-
-// <h2 className="display-3 skills-h2">Skills</h2>
-//             <div className="icons-flex d-flex flex-md-row flex-column">
-//                 <div className="align-items" id="hexa">
-//                     <div className="hexagon hexagon-margin">
-//                         <IoIosSpeedometer className="icon"/>
-//                     </div>
-//                     <h2 id="fast">Fast</h2>
-//                     <h4 id="fast-p">Fast load times and lag free interaction, my highest priority.</h4>
-//                 </div>
-
-//                 <div className="align-items">
-//                     <div className="hexagon hexagon-margin">
-//                         <MdDevices className="icon"/>
-//                     </div>
-//                     <h2 id="responsive">Responsive</h2>
-//                     <h4 id="responsive-p">My layouts will work on any device, big or small.</h4>
-//                 </div>
-
-//                 <div className="align-items">
-//                     <div className="hexagon hexagon-margin">
-//                         <IoIosRocket className="icon"/>
-//                     </div>
-//                     <h2 id="dynamic">Dynamic</h2>
-//                     <h4 id="dynamic-p">Websites don't have to be static, I love making pages come to life.</h4>
-//                 </div>
-//             </div>
-
-//             <div className="margin">
-//                 <hr className="first-hr-line"/>
-//                 <hr className="second-hr-line"/>
-//                 <hr className="third-hr-line"/>
-//                 <hr className="fourth-hr-line"/>
-//                 <hr className="fifth-hr-line" />
-//                     <ul>
-//                         <li className="full-bar">
-//                             <div className="bar bar-html"></div>
-//                         </li>
-//                         <li className="full-bar">
-//                             <div className="bar bar-css"></div>
-//                         </li>
-//                         <li className="full-bar">
-//                             <div className="bar bar-js"></div>
-//                         </li>
-//                         <li className="full-bar">
-//                             <div className="bar bar-react"></div>
-//                         </li>
-//                     </ul>
-//                     <h3 id="master-h3">Master Level</h3>
-//                     <h3 id="high-h3">High Level</h3>
-//                     <h3 id="medium-h3">Medium Level</h3>
-//                     <h3 id="basic-h3">Basic Level</h3>
-//                     <h3 id="none-h3">None</h3>
-//             </div>
-//             <div>
-//                 <TiHtml5 className="html"/>
-//                 <IoLogoCss3 className="css"/>
-//                 <IoLogoJavascript className="js"/>
-//                 <GrReactjs className="react"/>
-//             </div>
 
 export default function Skills() {
     const [img, setImg] = useState([
@@ -85,24 +23,30 @@ export default function Skills() {
                             <div className="hexagon hexagon-margin">
                                 <IoIosSpeedometer className="icon"/>
                             </div>
-                            <h2 id="fast">Fast</h2>
-                            <h4 id="fast-p">Fast load times and lag free interaction, my highest priority.</h4>
+                            <div className="skills-name">
+                                <h2>Fast</h2>
+                                <h4>Fast load times and lag free interaction, my highest priority.</h4>
+                            </div>
                         </div>
         
                         <div className="align-items">
                             <div className="hexagon hexagon-margin">
                                 <MdDevices className="icon"/>
                             </div>
-                            <h2 id="responsive">Responsive</h2>
-                            <h4 id="responsive-p">My layouts will work on any device, big or small.</h4>
+                            <div className="skills-name">
+                                <h2 >Responsive</h2>
+                                <h4 >My layouts will work on any device, big or small.</h4>
+                            </div>
                         </div>
         
                         <div className="align-items">
                             <div className="hexagon hexagon-margin">
                                 <IoIosRocket className="icon"/>
                             </div>
-                            <h2 id="dynamic">Dynamic</h2>
-                            <h4 id="dynamic-p">Websites don't have to be static, I love making pages come to life.</h4>
+                            <div className="skills-name">
+                                <h2>Dynamic</h2>
+                                <h4>Websites don't have to be static, I love making pages come to life.</h4>
+                            </div>
                         </div>
                     </div>
             <div className="container">
@@ -110,7 +54,7 @@ export default function Skills() {
                 <div className="row">
                     {
                         img.map(image => (
-                            <div className="col-md-2 col-sm-4 col-12 image-container mt-4">
+                            <div className="col-md-2 col-sm-2 col-4 image-container my-4 mx-3">
                                 <img  src={image.url} alt="tech stack image"/>
                             </div>
                         ))
