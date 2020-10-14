@@ -6,7 +6,7 @@ export default function MyAlmaMeter() {
             <h2 className="display-3 alma-meter">My Alma Meter</h2>
             <div className="vertical-line"></div>
             <div className="school">
-                <h2 className="course display-5">Computer Programmer Analyst</h2>
+                <h2 className="course display-5">Computer Systems Technician</h2>
                 <h4 className="course college-name">George Brown College, Toronto</h4>
                 <hr/>
                 <h2 className="course display-5">Higher Education</h2>
