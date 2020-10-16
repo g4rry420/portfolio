@@ -12,7 +12,6 @@ function App() {
   useEffect(() => {
     let scroll = window.requestAnimationFrame || ((callback) => window.setTimeout(callback, 1000 / 60));
     let elementsToShow = document.querySelectorAll(".show-on-scroll");
-    console.log(elementsToShow)
 
     const loop = () => {
       elementsToShow.forEach((element) => {

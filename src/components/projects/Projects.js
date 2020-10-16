@@ -10,12 +10,14 @@ export default function Projects() {
         { id: 6, imgUrl: `${require("../../images/huddle.PNG")}`, webUrl: "https://huddle-landing-page-roan-ten.now.sh/", title: "Huddle - A Landing Page" },
         { id: 7, imgUrl: `${require("../../images/socialMedia.PNG")}`, webUrl: "https://social-media-dashboard-switcher.now.sh/#", title: "A Socila Media Dashboard Page"}
     ])
+
+
     return (
         <section className="container-fluid section-three mt-5 show-on-scroll" id="projects">
             <h2 className="display-3 py-5">Projects</h2>
             <div className="container">
                 <div className="row fade-out-siblings">
-                {
+                {/*
                     content.map(item => (
                         <div className="col-md-4 col-12 mb-5" key={item.id}>
                             <div className="card cards">
@@ -35,8 +37,21 @@ export default function Projects() {
                             </div>
                         </div>
                     ))
+                    */}
+                {
+                    content.map(item => (
+                        <div  className="col-md-4 flex-item  col-12 mb-5" key={item.id}>
+                            <div className="card">
+                                <img src={item.imgUrl} alt="card" className="card-img-top"/>
+                                <div className="card-body">
+                                    <h5 className="card-title">{item.title}</h5>
+                                    <p className="card-text"></p>
+                                    <a href={item.webUrl} className="btn btn-website">View Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    ))
                 }
-
                 </div>
             </div>
         </section>

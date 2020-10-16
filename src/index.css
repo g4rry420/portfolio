@@ -362,6 +362,14 @@ margin-left: 15%;
   background-color: #3602f3b4;
   transition: .3s;
 }
+.btn-website{
+  border: 1px solid #3602f3b4;
+  font-weight: 600;
+}
+.btn-website:hover{
+  background-color: #3602f3b4;
+  color: white;
+}
 /* Projects ends here */
 
 /* Contact Page starts here */
