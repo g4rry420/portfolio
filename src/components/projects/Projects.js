@@ -8,7 +8,7 @@ export default function Projects() {
         { id: 4, imgUrl: `${require("../../images/json.PNG")}`, webUrl: "https://json-validator-and-formatter.vercel.app/", title: "Json Formatter and Validator" },
         { id: 5, imgUrl: `${require("../../images/passwordGenerator.PNG")}`, webUrl: "https://password-generator-dun-sigma.vercel.app/", title: "Password Generator" },
         { id: 6, imgUrl: `${require("../../images/huddle.PNG")}`, webUrl: "https://huddle-landing-page-roan-ten.now.sh/", title: "Huddle - A Landing Page" },
-        { id: 7, imgUrl: `${require("../../images/socialMedia.PNG")}`, webUrl: "https://social-media-dashboard-switcher.now.sh/#", title: "A Socila Media Dashboard Page"}
+        { id: 7, imgUrl: `${require("../../images/socialMedia.PNG")}`, webUrl: "https://social-media-dashboard-switcher.now.sh/#", title: "A Social Media Dashboard Page"}
     ])
 
 
