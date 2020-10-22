@@ -46,7 +46,7 @@ export default function Projects() {
                                 <div className="card-body">
                                     <h5 className="card-title">{item.title}</h5>
                                     <p className="card-text"></p>
-                                    <a href={item.webUrl} className="btn btn-website">View Website</a>
+                                    <a href={item.webUrl} target="_blank" className="btn btn-website">View Website</a>
                                 </div>
                             </div>
                         </div>
