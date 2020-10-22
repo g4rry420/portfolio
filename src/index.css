@@ -370,6 +370,9 @@ margin-left: 15%;
   background-color: #3602f3b4;
   color: white;
 }
+.btn-website:focus{
+  padding: .375rem .75rem;
+}
 /* Projects ends here */
 
 /* Contact Page starts here */
