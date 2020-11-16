@@ -2,9 +2,12 @@ import React,{ useState } from 'react'
 
 export default function Projects() {
     const [content, setContent] = useState([
-        { id: 1, imgUrl: `${require("../../images/countries.png")}`, webUrl: "https://rest-countries-api-with-color-theme-switcher-jet.now.sh/", title: "Rest Countries API made using vanilla javascript."},
         { id: 2, imgUrl: `${require("../../images/comfyHouse.PNG")}`, webUrl: "https://comfy-house.g4rry420.vercel.app/", title: "Comfy House - An Ecommerce Website" },
         { id: 3, imgUrl: `${require("../../images/spotidex.PNG")}`, webUrl: "https://spotidex.vercel.app/#", title: "Spotidex - A Music app" },
+        { id: 8, imgUrl: `${require("../../images/messaggio.PNG")}`, webUrl: "https://messaggio.vercel.app/", title: "Messaggio - A Chat Application" },
+        { id: 9, imgUrl: `${require("../../images/dev-world.PNG")}`, webUrl: "https://dev-world.vercel.app/", title: "Dev World - A Social Media Application" },
+        { id: 10, imgUrl: `${require("../../images/alkaline.PNG")}`, webUrl: "https://alkaline.vercel.app/", title: "Alkaline - A Video Calling Application" },
+        { id: 1, imgUrl: `${require("../../images/countries.png")}`, webUrl: "https://rest-countries-api-with-color-theme-switcher-jet.now.sh/", title: "Rest Countries API made using vanilla javascript."},
         { id: 4, imgUrl: `${require("../../images/json.PNG")}`, webUrl: "https://json-validator-and-formatter.vercel.app/", title: "Json Formatter and Validator" },
         { id: 5, imgUrl: `${require("../../images/passwordGenerator.PNG")}`, webUrl: "https://password-generator-dun-sigma.vercel.app/", title: "Password Generator" },
         { id: 6, imgUrl: `${require("../../images/huddle.PNG")}`, webUrl: "https://huddle-landing-page-roan-ten.now.sh/", title: "Huddle - A Landing Page" },
@@ -37,7 +40,7 @@ export default function Projects() {
                             </div>
                         </div>
                     ))
-                    */}
+                */}
                 {
                     content.map(item => (
                         <div  className="col-md-4 flex-item  col-12 mb-5" key={item.id}>

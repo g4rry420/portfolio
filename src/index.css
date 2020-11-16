@@ -313,6 +313,12 @@ margin-left: 15%;
   transform: scale(1.1);
   transition: transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 }
+.flex-item .card{
+  height: 100%;
+}
+.flex-item .card img{
+  height: 170px;
+}
 .cards .overlay{
   position: absolute;
   bottom: 0;
@@ -377,8 +383,7 @@ margin-left: 15%;
 
 /* Contact Page starts here */
 .section-four{
-  margin-top: 15%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 .section-four h2{
   margin-bottom: 5%;
