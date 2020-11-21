@@ -346,7 +346,10 @@ margin-left: 15%;
   transition: .4s ease-in;
 }
 .card-title{
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+}
+.section-three .card-text{
+  font-size: 1.2rem;
 }
 .link button{
   border: 2px solid #3602f3b4;
