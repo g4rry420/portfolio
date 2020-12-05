@@ -54,8 +54,8 @@ export default function Skills() {
                 <div className="row">
                     {
                         img.map(image => (
-                            <div className="col-md-2 col-sm-2 col-4 image-container my-4 mx-3">
-                                <img  src={image.url} alt="tech stack image"/>
+                            <div key={image.id} className="col-md-2 col-sm-2 col-4 image-container my-4 mx-3">
+                                <img  src={image.url} alt="tech stack"/>
                             </div>
                         ))
                     }

@@ -64,6 +64,9 @@ export default function Navbar() {
                         > About</Link>
                     </li>
                     <li>
+                        <a href="https://dev.to/g4rry420" rel="noopener noreferrer" target="_blank">Blogs</a>
+                    </li>
+                    <li>
                         
                         <Link
                             activeClass="active"
@@ -85,7 +88,6 @@ export default function Navbar() {
                         > Projects</Link>
                     </li>
                     <li>
-                        
                         <Link
                             activeClass="active"
                             to="contact"
@@ -95,6 +97,7 @@ export default function Navbar() {
                             duration= {500}
                         > Contact</Link>
                     </li>
+                    
                 </ul> 
             </div>
         </motion.nav>
