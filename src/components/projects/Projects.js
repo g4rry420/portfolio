@@ -2,7 +2,7 @@ import React,{ useState } from 'react'
 
 export default function Projects() {
     const [content, setContent] = useState([
-        { id: 2, imgUrl: `${require("../../images/comfyHouse.PNG")}`, webUrl: "https://comfy-house.g4rry420.vercel.app/", title: "Comfy House - An Ecommerce Website", tech: "JavaScript, React and Firebase" },
+        { id: 2, imgUrl: `${require("../../images/comfyHouse.PNG")}`, webUrl: "https://comfyhouse-frontend.vercel.app/", title: "Comfy House - An Ecommerce Website", tech: "JavaScript, React, Node, MongoDb, Mongoose" },
         { id: 3, imgUrl: `${require("../../images/spotidex.PNG")}`, webUrl: "https://spotidex.vercel.app/#", title: "Spotidex - A Music app", tech: "JavaScript, React and Spotify API" },
         { id: 8, imgUrl: `${require("../../images/messaggio.PNG")}`, webUrl: "https://messaggio.vercel.app/", title: "Messaggio - A Chat Application", tech: "JavaScript, React and Firebase" },
         { id: 9, imgUrl: `${require("../../images/dev-world.PNG")}`, webUrl: "https://dev-world.vercel.app/", title: "Dev World - A Social Media Application", tech: "JavaScript, React and Firebase" },
