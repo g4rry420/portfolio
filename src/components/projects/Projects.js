@@ -3,7 +3,7 @@ import React,{ useState } from 'react'
 export default function Projects() {
     const [content, setContent] = useState([
         { id: 2, imgUrl: `${require("../../images/comfyHouse.PNG")}`, webUrl: "https://comfyhouse-frontend.vercel.app/", title: "Comfy House - An Ecommerce Website", tech: "JavaScript, React, Node, MongoDb, Mongoose" },
-        { id: 11, imgUrl: `${require("../../images/notes_serverless.PNG")}`, webUrl: "https://notes-pink.vercel.app/", title: "Scratch - A CRUD application", tech: "AWS, Lambda, S3, IAM, DynamoDb, React, Node" },
+        { id: 11, imgUrl: `${require("../../images/notes_serverless.PNG")}`, webUrl: "https://scratchserverless.netlify.app/", title: "Scratch - A CRUD application", tech: "AWS, Lambda, S3, IAM, DynamoDb, React, Node" },
         { id: 3, imgUrl: `${require("../../images/spotidex.PNG")}`, webUrl: "https://spotidex.vercel.app/#", title: "Spotidex - A Music app", tech: "JavaScript, React and Spotify API" },
         { id: 8, imgUrl: `${require("../../images/messaggio.PNG")}`, webUrl: "https://messaggio.vercel.app/", title: "Messaggio - A Chat Application", tech: "JavaScript, React and Firebase" },
         { id: 9, imgUrl: `${require("../../images/dev-world.PNG")}`, webUrl: "https://dev-world.vercel.app/", title: "Dev World - A Social Media Application", tech: "JavaScript, React and Firebase" },
